@@ -1,0 +1,86 @@
+/* REGISTRATION MEDIA */
+@media screen and (max-width: 500px){
+    .registration-form .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .gender-option {
+        flex-wrap: wrap;
+    }
+
+    .registration-container {
+        margin: 120px 20px 50px 20px;
+    }
+
+    .registration-form {
+        max-height: max-content;
+    } 
+} 
+
+/* HOME MEDIA */
+
+@media screen and (max-width: 950px){
+    .home-img-container {
+        display: none;
+    }
+
+    .home-container {
+        height: max-content;
+    }
+}
+
+/* ADMIN MEDIA */
+
+@media screen and (max-width: 800px) and (max-width: 500px){
+    nav {
+        width: 70px;
+        transition: width 0.30s; 
+    }
+
+    header {
+        left: 100px;
+        transition: left 0.30s;
+        justify-content: center;
+    }
+
+    .add-notes h4{
+        display: none;
+    }
+
+    .admin-body {
+        padding-left: 100px;
+        transition: padding-left 0.30s;
+    }
+
+    .img-container img{
+        display: none;
+    }
+
+    .img-container {
+        display: none;
+    }
+
+    .nav-container span {
+        display: none;
+    }
+
+    nav .nav-footer {
+        padding: 0;
+    }
+
+    .nav-footer .username-container {
+        display: none;
+    }
+
+    .top .nav-container {
+        justify-content: center;
+    }
+
+    .nav-container img{
+        margin: 0;
+    }
+
+    header .header-left-section {
+        display: none;
+    }
+}
